@@ -2,9 +2,9 @@
 # Boleh Recode Tapi Tambahkan Author asli
 
 # [+]-------------------------------------------[+]
-#  | Creator : AmmarBN   		         |
-#  | Github : https://github.com/AmmarrBN        |
-#  | Powered By Executed Team			 |
+#  | Creator : Tatang94 		         |
+#  | Github : https://github.com/Tatang94        |
+#  | Powered By Tatang94			 |
 # [+]-------------------------------------------[+]
 
 # Install Modules
@@ -45,13 +45,13 @@ def autoketik(s):
 def countdown(time_sec):
 	try:
 		while time_sec:
-			mins, secs = divmod(time_sec,60)
+			mins, secs = divmod(time_sec,10)
 			timeformat = '\033[1;97m[\033[1;93m•\033[1;97m] Silakan Menunggu Dalam Waktu \033[1;92m{:02d}:{:02d}'.format(mins,secs)
 			print(timeformat,end='\r')
 			time.sleep(1)
 			time_sec -= 1
 		print (f"{W}[{Y}•{W}] Mulai Menyepam Ulang....           ")
-		time.sleep(5)
+		time.sleep(1)
 	except KeyboardInterrupt:
                 print (f"{W}Program Terminated [{R}!{W}]")
                 sys.exit()
@@ -135,14 +135,14 @@ def banner():
              {biru}╚═╝{putih}┴└─└─┘ ┴ ┴ ┴┴─┘      {ungu}╚═╝{putih}┴ ┴└─┘
      \033[1;0m──────────────────────────┬─────────────────────────
   \033[1;0m┌────────────────────────────┼───────────────────────────┐
-  {W}│ Creator{R}:{W}AmmarBN            │ Version {R}:{G} 3.0{W}             │
-  {W}│ Github{R}:{G}github.com/AmmarrBN {W}│ {W}Your Ip {R}:{Y} {ip}   {W}│
-  {W}│ Team{R}:{W}Executed {biru}Team         {W}│ Perfect Brutal {biru}Sms Tools  {W}│
+  {W}│ Creator{R}:{W}Tatang94            │ Version {R}:{G} 3.0{W}             │
+  {W}│ Github{R}:{G}github.com/Tatang94 {W}│ {W}Your Ip {R}:{Y} {ip}   {W}│
+  {W}│ Team{R}:{W}Tatang {biru}Team         {W}│ Perfect Brutal {biru}Sms Tools  {W}│
   └────────────────────────────┼───────────────────────────┘""")
 
 def banner2():
     print (f"""{putih}           ┌───────────────────┴─────────┬──────────┐
-           {putih}│ 1{R}.{W}Spam On 24 jam ({Y}delay{W})    │{G}  Online  {W}│
+           {putih}│ 1{R}.{W}meluncurkan bom ({Y}delay{W})    │{G}  Online  {W}│
            {putih}│ 2{R}.{W}Spam Brutal Normal ({Y}delay{W})│{G}  Online  {W}│
            {putih}│ 3{R}.{W}Laporkan Bug              │{G}  Online  {W}│
            {putih}│ 4{R}.{W}Exit Tools                │{B}   null   {W}│
@@ -168,4 +168,4 @@ def start(): # Def Untuk Start Tools
 start() # Memulai Tools
 
 # Copyright 08/07/22
-# Made By Executed Team ❤️ With AmmarBN
+# Made By Tatang  Team ❤️ With AmmarBn
